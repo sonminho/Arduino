@@ -11,8 +11,8 @@ void setup() {
 void loop() {
   int buttonState = digitalRead(Button);
 
-  if(buttonState) {
-    led.toggle();
+  if(buttonState) { // 버튼이 눌렸을때
+    led.toggle(); 
   }
   
   delay(1);
